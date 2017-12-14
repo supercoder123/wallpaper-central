@@ -66,6 +66,8 @@ public class FavouritePhotosRecyclerAdapter extends RecyclerView.Adapter<Favouri
     String smallUrlPx="",regUrl,fullUrl;
     Realm realm;
 
+//another try for branch
+
     public FavouritePhotosRecyclerAdapter(Context context, RealmResults<FavouritePhotos> resultsList,ImageLoader imageLoader, Realm realm){
         this.context = context;
         this.resultsList = resultsList;
