@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layoutPadding">16dp</dimen>
+    <dimen name="textSizeArtistRow">15sp</dimen>
+    <dimen name="layoutMargin">16dp</dimen>
+    <dimen name="marginHeart">10dp</dimen>
+    <dimen name="inkPageIndicator">65dp</dimen>
+    <dimen name="toastText">40dp</dimen>
+    <dimen name="searchButtonPadding">10dp</dimen>
+    <dimen name="searchBoxStroke">1dp</dimen>
+    <dimen name="searchBoxCorner">5dp</dimen>
+</resources>

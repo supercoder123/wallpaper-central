@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coord_Layout"
+    tools:context="com.apps.fernandes.ashley.wallpapercentral.activities.PhotoDetailsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbarBlack"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorTransparentBlack"
+
+            >
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_relative_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:clickable="true"
+    tools:context="com.apps.fernandes.ashley.wallpapercentral.activities.PhotoDetailsActivity"
+    >
+
+     <com.alexvasilkov.gestures.views.GestureImageView
+          android:id="@+id/gesture_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+        />
+
+      <ProgressBar
+          android:id="@+id/progress"
+          android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_centerHorizontal="true"
+          android:layout_height="100dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom_linear_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorTransparentBlack"
+        android:orientation="vertical"
+        >
+    <Button
+
+        android:id="@+id/details_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:background="@null"
+        android:text="artist name"
+        android:textColor="@color/TextColor"
+        android:textSize="@dimen/textSizeArtistRow"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:padding="@dimen/layoutPadding"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/share_button"
+                android:paddingTop="@dimen/layoutPadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="@string/share"
+                android:drawableTop="@drawable/icon_share"
+                android:background="?attr/selectableItemBackground"
+
+                />
+
+            <Button
+                android:id="@+id/download_button"
+                android:paddingTop="@dimen/layoutPadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAlignBottom="true"
+                android:layout_weight=".3"
+                android:drawableTop="@drawable/icon_download"
+                android:text="@string/download"
+                android:background="?attr/selectableItemBackground"
+
+                />
+            <Button
+                android:id="@+id/set_wallpaper_button"
+                android:paddingTop="@dimen/layoutPadding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="@string/setWallpaper"
+                android:drawableTop="@drawable/icon_set_wallpaper"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/layoutPadding"
+
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

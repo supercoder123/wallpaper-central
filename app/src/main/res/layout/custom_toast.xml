@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/toastRoot"
+    >
+
+    <TextView
+        android:id="@+id/toastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@drawable/custom_font_background"
+        android:padding="@dimen/layoutPadding"
+        android:text="Recent"
+        android:fontFamily="serif"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="@dimen/toastText" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/list_row_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        />
+
+
+<!--    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/list_row_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+
+        />-->
+   <!-- <ImageView
+        android:id="@+id/list_row_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+    <TextView
+        android:id="@+id/artist_name_id"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/layoutPadding"
+        android:layout_height="wrap_content"
+        android:textColor="@color/TextColor"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/textSizeArtistRow"
+        android:text="Artist name"
+        android:padding="@dimen/layoutPadding"
+        android:background="@drawable/artist_name_gradient"
+        android:ellipsize="end"
+        />
+
+
+    <com.like.LikeButton
+        app:icon_type="heart"
+        app:icon_size="25dp"
+        app:like_drawable="@drawable/icon_heart"
+        app:unlike_drawable="@drawable/icon_heart_border"
+        android:layout_alignTop="@+id/artist_name_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/artist_name_id"
+        android:id="@+id/heart_button"
+        app:circle_end_color="@color/colorAccent"
+        app:circle_start_color="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+

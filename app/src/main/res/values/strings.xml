@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WallpaperHub</string>
+
+    <!-- navbar -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_fav">Favourites</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="setWallpaper">Download\nand Set</string>
+    <string name="download">Download\n\n</string>
+    <string name="share">Share\n\n</string>
+    <string name="alreadyDownloaded">Wallpaper already downloaded</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
