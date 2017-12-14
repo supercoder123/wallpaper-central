@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private ImageLoader imageLoader;
 
-
+////new check
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
